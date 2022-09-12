@@ -3,7 +3,7 @@
 }
 
 body{
-background-color: rgb(1, 1, 44);
+background-color: rgb(2, 58, 58) ;
 }
 .heading-section {
     /* background-image: url("../img/beach 7.jpg"); */
@@ -37,16 +37,16 @@ display: block;
 }
 
 .card-utilities span {
-    border-top: 2px solid rgb(0, 251, 255);
+    border-top: rgb(2, 58, 58);
     font-size: 30px;
 }
 
 .head-tag{
-color:rgb(1, 1, 44);
+color: lavender;
 }
 
 nav {
-    background-color: rgb(1, 1, 44);
+    background-color: rgb(2, 58, 58);
 }
 
 
@@ -61,9 +61,13 @@ nav {
 
 .carousel-caption p {
     font-size: 50px;
-    color: rgb(1, 1, 44);
+    color: rgb(2, 58, 58);
 }
 
 .carousel-caption {
     bottom: 200px;
+}
+
+.card-utilities-container{
+   background-color: rgb(2, 58, 58);
 }
