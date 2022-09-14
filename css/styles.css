@@ -42,19 +42,30 @@ body {
     font-size: 20px;
 }
 
+.sub-heading {
+    padding-left: 125px;
+    margin-bottom: 50px;
+    background-color: rgb(100, 209, 100);;
+}
+
+.sub-heading .odd-color {
+    background-color: green; 
+}
+
+.sub-heading .element {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sub-heading a {
+    font-size: 30px;
+}
+
 .card-body img {
     width: 30px;
 }
 
 
-.heading-section {
-    /* background-image: url("../img/beach 7.jpg"); */
-    height: 90vh;
-    width: 100%;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    padding-top: 0 !important;
-}
 
 .carousel-item img {
     height: 90vh;
