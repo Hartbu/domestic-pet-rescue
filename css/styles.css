@@ -1,10 +1,14 @@
 body {
-    background-color: rgb(2, 58, 58) ;
+    background-color: aliceblue ;
 }
 
 .navbar {
     padding: 10px;
     background-color: rgb(2, 58, 58);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navbar img {
@@ -15,27 +19,34 @@ body {
 .navbar a {
     font-size: 20px;
 }
+.heading-section .heading-card {
+    width: 25%;
+    margin: 70px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    color: rgb(1, 36, 36);
+    text-align: center;
+    background-color:gray;
+
+}
 
 .heading-section{
     background-image: url(../img/dog-original.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
-}
-
-.heading-section .heading-card {
-    width: 35%;
-    margin: 50px;
-    padding: 30px;
-    padding-top: 150px;
-    color: white;
-    text-align: center;
-    background-color: rgb(2, 58, 58);
+    height: 85vh;
 }
 
 .heading-section .heading-card h2 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.heading-section .heading-card h3 {
+    font-size: 32px;
+    color: rgb(229, 229, 229);
 }
 
 .heading-section .heading-card p {
@@ -44,8 +55,8 @@ body {
 
 .sub-heading {
     padding-left: 125px;
-    margin-bottom: 50px;
-    background-color: rgb(100, 209, 100);;
+    margin-bottom: 20px;
+    background-color: rgb(100, 209, 100);
 }
 
 .sub-heading .odd-color {
@@ -53,12 +64,13 @@ body {
 }
 
 .sub-heading .element {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .sub-heading a {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .card-body img {
@@ -71,12 +83,37 @@ body {
     height: 90vh;
 }
 
+.mid-heading {
+    background-image: url(../img/cat-pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.mid-heading .mid-card {
+    width: 25%;
+    margin: 150px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: blue;
+    text-align: center;
+    background-color: white;
+}
+
 .showcase-section .write-up {
     max-width: 50%;
     padding-top: 80px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 .showcase-section .write-up h1 {
@@ -95,7 +132,7 @@ display: block;
 }
 
 .head-tag{
-color: lavender;
+color:  rgb(2, 58, 58);
 }
 
 
@@ -108,6 +145,59 @@ color: lavender;
     bottom: 200px;
 }
 
+.row .no-gutters {
+ cursor: pointer;
+}
+
 .card-utilities-container{
    background-color: rgb(2, 58, 58);
 }
+
+.faq-button {
+    margin-left: 460px;
+    margin-right: 460px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-size-adjust: 5px;
+}
+
+.faq-section .card-title:hover{
+    color:green ;
+    }
+
+.faq-section .title{
+        color:green ;
+    }
+
+.closing-heading {
+    background-color:lightgreen;
+    padding: 30px;
+}
+
+.closing-card {
+    background-color:rgb(2, 58, 58);
+    padding: 20px;
+    color: aliceblue; 
+    width: 100%;
+}
+
+.footer {
+    height: 40vh;
+background-color: rgb(2, 58, 58);
+}
+
+.footer input {
+    width: 500px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer  button {
+    margin-left: 700px;
+   
+}
+
+
