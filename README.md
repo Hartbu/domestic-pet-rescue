@@ -8,7 +8,7 @@
 * JS
 * GIT
 # Description:
-#### Animal shelter is a clean,simple, and customisable.It is a quick launch of a page to showcase my work,my talents and services, Animal shelter ahs it all in store for you to easily and effortlessly engineer an appealing page to attract new clients and seal new business daels.
+#### Animal shelter is a clean,simple, and customisable.It is a quick launch of a page to showcase my work,my talents and services, Animal shelter has it all install for you to easily and effortlessly engineer an appealing page to attract new clients and seal new business daels.
 ## License:
 MIT Copyright (c) 2022
 # Setup/Installation Requirements 
